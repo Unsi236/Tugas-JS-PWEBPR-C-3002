@@ -11,7 +11,7 @@ benar.addEventListener('click', ()=> {
   kalimatpertanyaan.innerHTML = "Anda Berbohong!";
   pertanyaan.innerHTML = "Anda adalah seorang Teknisi";
   luaran.style.backgroundColor = "#E12E2E";
-  gambardetektif.src = "Assets/teknisi.png";
+  gambardetektif.src = "Assets/Teknisi.png";
   buttonpertanyaan.style.display = 'none';
   boxpertanyaan.classList.add("animasigetar");
 });
@@ -20,7 +20,7 @@ salah.addEventListener('click', ()=> {
   kalimatpertanyaan.innerHTML = "Anda Benar!";
   pertanyaan.innerHTML = "Anda adalah seorang Mahasiswa";
   luaran.style.backgroundColor = "#6FD240"
-  gambardetektif.src = "Assets/mahasiswa.png";
+  gambardetektif.src = "Assets/Mahasiswa.png";
   buttonpertanyaan.style.display = 'none';
   boxpertanyaan.classList.add("animasijj");
 });
